@@ -1,0 +1,84 @@
+/*
+* Meredith Frazier
+* May 10, 2019
+* Box Model CL04
+*/
+
+/* The universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body properties here */
+
+h1 {
+    
+    /* Size of the box. */
+    height: 40px;
+    width: 475px;
+    
+    /* Size and style of the border. */
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    border-right: 1px dashed black;
+    border-left: 1px dashed black;
+    
+    /* Size of the margins. */
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p {
+    
+    /* Size of the box. */
+    height: 40px;
+    width: 475px;
+    
+    /* Size and style of the border. */
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    border-right: 1px dashed black;
+    border-left: 1px dashed black;
+    
+    /* Size of the margins. */
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+main {
+    
+    /* Size of the box. */
+    height: 130px; /* Size of the box. */
+    width: 520px;
+    
+    /* Size and style of the border. */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    
+    /* Size of the margins. */
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin-right: 23px;
+    margin-left: 23px;
+}
+
+body {
+    
+    /* Size of the box. */
+    height: 175px;
+    width: 575px;
+    
+    /* Size and style of the border. */
+    border-top: 3px dotted black;
+    border-bottom: 3px dotted black;
+    border-right: 3px dotted black;
+    border-left: 3px dotted black;
+}
